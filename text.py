@@ -20,5 +20,7 @@ def main():
         write()
     elif quest == 1:
         read()
+    else:
+        "Введеное число меньше нуля или больше единицы!!!"
 
 writenum = main()
